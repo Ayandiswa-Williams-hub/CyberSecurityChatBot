@@ -1,0 +1,46 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CyberSecurityChatBot
+{
+    class tasks
+  {
+    [
+      {
+        "Id": 1,
+        "Title": "Enable Two-Factor Authentication",
+        "Description": "Set up 2FA on all important accounts including email, banking, and social media",
+        "Reminder": "Remind me in 3 days",
+        "IsComplete": false,
+        "CreatedAt": "2026-06-25 14:30"
+      },
+      {
+        "Id": 2,
+        "Title": "Review Privacy Settings",
+        "Description": "Check and update privacy settings on Facebook, Instagram, and LinkedIn",
+        "Reminder": "",
+        "IsComplete": true,
+        "CreatedAt": "2026-06-24 09:15"
+      },
+      {
+        "Id": 3,
+        "Title": "Update Antivirus Software",
+        "Description": "Ensure antivirus is up to date and run a full system scan",
+        "Reminder": "Remind me tomorrow",
+        "IsComplete": false,
+        "CreatedAt": "2026-06-25 10:45"
+      },
+      {
+        "Id": 4,
+        "Title": "Create Strong Passwords",
+        "Description": "Change passwords for banking and email accounts using password manager",
+        "Reminder": "Remind me in 7 days",
+        "IsComplete": false,
+        "CreatedAt": "2026-06-25 16:20"
+      }
+    ]
+  }
+}
